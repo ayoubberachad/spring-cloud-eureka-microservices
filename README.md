@@ -19,3 +19,4 @@ The backend part of a sample application based on micro-services using Spring cl
     -  Customer Service  : http://localhost:8888/CUSTOMER-SERVICE/customers
     -  Inventory Service : http://localhost:8888/PRODUCT-SERVICE/products
     
+![eureka](https://user-images.githubusercontent.com/85138089/212431759-53880e64-d714-43d2-a17b-5f2926f6849e.PNG)
