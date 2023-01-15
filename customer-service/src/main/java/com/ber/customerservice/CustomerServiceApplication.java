@@ -21,6 +21,7 @@ public class CustomerServiceApplication {
 			customerRepository.save(new Customer(null,"hanane","hanane@gmail.com"));
 			customerRepository.findAll().forEach(customer -> {
 				System.out.println(customer.toString());
+
 			});
 
 
