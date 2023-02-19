@@ -1,5 +1,7 @@
 package com.ber.inventoryservice;
 
+import com.ber.inventoryservice.entites.Product;
+import com.ber.inventoryservice.repository.ProductRepository;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -35,17 +37,3 @@ public class InventoryServiceApplication {
 	}
 }
 
-@Entity @Data
-@AllArgsConstructor @NoArgsConstructor  @ToString
- class Product{
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-	private String name;
-	private double price;
-	private double quantity;
-
-}
-@RepositoryRestResource
-interface ProductRepository extends JpaRepository<Product,Long>{
-
-}
